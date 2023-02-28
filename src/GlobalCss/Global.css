@@ -1,0 +1,27 @@
+.banner-bg {
+  background-color: #cf2547;
+}
+
+.service-bg {
+  background-color: #f2f0f1;
+}
+
+.global-color {
+  color: white;
+}
+
+.footer-bg {
+  background-color: #232222;
+}
+
+.primary-custom-btn {
+  background-color: #cf2547;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.primary-custom-btn:hover {
+  background-color: #f9002e;
+  transition: 600ms;
+}

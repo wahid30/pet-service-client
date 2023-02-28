@@ -1,8 +1,9 @@
 import React from "react";
+import "../../../GlobalCss/Global.css";
 
 const Navbar = () => {
   return (
-    <div className="bg-slate-400">
+    <div className="banner-bg global-color">
       <div className="navbar w-9/12 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
