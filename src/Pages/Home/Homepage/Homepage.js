@@ -2,6 +2,7 @@ import React from "react";
 import Adoption from "../Adoption/Adoption";
 import Banner from "../Banner/Banner";
 import Branding from "../Branding/Branding";
+import DogCareService from "../DogCareService/DogCareService";
 import LoverOfAnimals from "../LoverOfAnimals/LoverOfAnimals";
 import RecentPosts from "../RecentPosts/RecentPosts";
 import Services from "../Services/Services";
@@ -15,6 +16,7 @@ const Homepage = () => {
       <Veterinarian></Veterinarian>
       <Services></Services>
       <LoverOfAnimals></LoverOfAnimals>
+      <DogCareService></DogCareService>
       <Adoption></Adoption>
       <VetCareTeam></VetCareTeam>
       <Branding></Branding>

@@ -20,7 +20,7 @@ const RecentPosts = () => {
         {/* card 01  */}
         <div className="card card-compact  bg-base-100 shadow-xl">
           <figure>
-            <img src={blog1} alt="Shoes" />
+            <img className="w-full" src={blog1} alt="Shoes" />
           </figure>
           <div className="card-body">
             <h2 className="card-title text-3xl">Hanma Shuji Wrote</h2>
@@ -39,7 +39,7 @@ const RecentPosts = () => {
         {/* card 02  */}
         <div className="card card-compact  bg-base-100 shadow-xl">
           <figure>
-            <img src={blog2} alt="Shoes" />
+            <img className="w-full" src={blog2} alt="Shoes" />
           </figure>
           <div className="card-body">
             <h2 className="card-title text-3xl">Hanagaki Takemichi Wrote</h2>
@@ -57,7 +57,7 @@ const RecentPosts = () => {
         {/* card 03  */}
         <div className="card card-compact bg-base-100 shadow-xl">
           <figure>
-            <img src={blog3} alt="Shoes" />
+            <img className="w-full" src={blog3} alt="Shoes" />
           </figure>
           <div className="card-body">
             <h2 className="card-title text-3xl">AKen Ryuguji Wrote</h2>

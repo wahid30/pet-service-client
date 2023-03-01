@@ -20,9 +20,9 @@ const VetCareTeam = () => {
       {/* cards  */}
       <div className="my-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {/* card01  */}
-        <div className="card card-compact  bg-base-100 shadow-xl">
+        <div className="card card-compact bg-base-100 shadow-xl">
           <figure>
-            <img src={team1} alt="Shoes" />
+            <img className="w-full" src={team1} alt="Shoes" />
           </figure>
           <div className="card-body text-center">
             <h2 className="text-2xl font-semibold">Emma Sano</h2>
@@ -43,7 +43,7 @@ const VetCareTeam = () => {
         {/* card02  */}
         <div className="card card-compact  bg-base-100 shadow-xl">
           <figure>
-            <img src={team2} alt="Shoes" />
+            <img className="w-full" src={team2} alt="Shoes" />
           </figure>
           <div className="card-body text-center">
             <h2 className="text-2xl font-semibold">Flora Sopa</h2>
@@ -64,7 +64,7 @@ const VetCareTeam = () => {
         {/* card03  */}
         <div className="card card-compact  bg-base-100 shadow-xl">
           <figure>
-            <img src={team3} alt="Shoes" />
+            <img className="w-full" src={team3} alt="Shoes" />
           </figure>
           <div className="card-body text-center">
             <h2 className="text-2xl font-semibold">Gal Gatot</h2>

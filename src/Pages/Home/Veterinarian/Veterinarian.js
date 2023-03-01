@@ -14,9 +14,6 @@ const Veterinarian = () => {
           Cats & Dogs. Sometime we also provide medical service to other kinds
           of animals depending on the situation.
         </p>
-        <div>
-          <button className="primary-custom-btn">Our Service</button>
-        </div>
       </div>
       <div>
         {" "}
