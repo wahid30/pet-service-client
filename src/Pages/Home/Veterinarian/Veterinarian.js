@@ -8,10 +8,11 @@ const Veterinarian = () => {
   flex justify-center items-center gap-5 px-5 custom-responsive"
     >
       <div className="grid gap-5">
-        <h1 className="text-5xl">As a veterinarian and lover of animals.</h1>
+        <h1 className="text-5xl">Medical care for Dogs & Cats</h1>
         <p className="2xl">
-          Lorem Ipsum available but the majoty suffered alteration in some form,
-          by humour randomised words.
+          We receive almost all kind of medical request service for all kinds of
+          Cats & Dogs. Sometime we also provide medical service to other kinds
+          of animals depending on the situation.
         </p>
         <div>
           <button className="primary-custom-btn">Our Service</button>

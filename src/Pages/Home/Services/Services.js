@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div className="p-5 my-5 service-bg grid gap-5">
       <div className="grid gap-3 text-center">
-        <h1 className="text-4xl">Services</h1>
+        <h1 className="text-4xl">Veterinary Services</h1>
         <h4 className="text-2xl">
           We provide this kinds of services with expert care.
         </h4>
@@ -22,8 +22,8 @@ const Services = () => {
           <div className="card-body">
             <h2 className="card-title">Veterinarian</h2>
             <p>
-              Your pets need to be Vaccinated once or more. Try our Vaccine
-              service for beloved pets.
+              Your beloved pet is suffering from any kind of diseases or
+              illness? contact with a professional Vet.
             </p>
             <div className="card-actions justify-center">
               <button className="primary-custom-btn">Book Service</button>
@@ -52,8 +52,11 @@ const Services = () => {
             <img src={service03} alt="Shoes" className="w-full" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Dental Care</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <h2 className="card-title">Neuter Service</h2>
+            <p>
+              By Neutering you can make your pet a lot less aggressive. It
+              protects them against certain illness and increase their lifespan.
+            </p>
             <div className="card-actions justify-center">
               <button className="primary-custom-btn">Book Service</button>
             </div>

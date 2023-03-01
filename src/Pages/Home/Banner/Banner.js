@@ -6,10 +6,9 @@ const Banner = () => {
     <div className="banner-bg global-color">
       <div className="flex justify-center items-center gap-5 px-5 custom-responsive">
         <div className="grid gap-5">
-          <h1 className="text-6xl">First I wanted to be a veterinarian</h1>
+          <h1 className="text-6xl">Pet Daycare And Veterinary Service</h1>
           <p className="text-2xl">
-            Lorem Ipsum available but the majority have suffered alteration in
-            some form, by injected humour random issued words.
+            Best online safe & reliable Pet Care Service
           </p>
           <div className="flex gap-3">
             <button className="btn btn-outline">Contact Us</button>

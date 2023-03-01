@@ -8,10 +8,11 @@ const RecentPosts = () => {
   return (
     <div className="my-5 px-5">
       <div className="grid gap-5 text-center">
-        <h1 className="text-4xl font-semibold">Recent Posts</h1>
+        <h1 className="text-4xl font-semibold">
+          Service Feedback From Clients
+        </h1>
         <p className="text-2xl">
-          Lorem Ipsum available, but the majority have <br /> suffered
-          alteration in some form.
+          Leave a feedback how was your experience with us.
         </p>
       </div>
       {/* cards   */}
@@ -22,13 +23,13 @@ const RecentPosts = () => {
             <img src={blog1} alt="Shoes" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-3xl">
-              As a veterinarian and lover of animals
-            </h2>
+            <h2 className="card-title text-3xl">Hanma Shuji Wrote</h2>
             <h3 className="text-[#00BED5] text-2xl">FEBRUARY 09, 2023</h3>
             <p className="text-2xl">
-              Lorem Ipsum available, but the majo rity have suffered alteration
-              in some words which look.
+              I really liked your daycare service. My cat was safe and sound
+              when you guys returned it to me. Its in good mood too, i guess he
+              had some friends to play with. Looking forward to use your service
+              again.
             </p>
             <div className="card-actions justify-start text-2xl">
               <Link className="text-[#00BED5]">Read More+</Link>
@@ -41,13 +42,12 @@ const RecentPosts = () => {
             <img src={blog2} alt="Shoes" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-3xl">
-              As a veterinarian and lover of animals
-            </h2>
+            <h2 className="card-title text-3xl">Hanagaki Takemichi Wrote</h2>
             <h3 className="text-[#00BED5] text-2xl">FEBRUARY 09, 2023</h3>
             <p className="text-2xl">
-              Lorem Ipsum available, but the majo rity have suffered alteration
-              in some words which look.
+              Thanks to your good Vet's my dog is felling better and started to
+              play like before. He was in really bad condition when i asked
+              advice from your doctors.But now he is all good again. Thank You.
             </p>
             <div className="card-actions justify-start text-2xl">
               <Link className="text-[#00BED5]">Read More+</Link>
@@ -60,13 +60,12 @@ const RecentPosts = () => {
             <img src={blog3} alt="Shoes" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-3xl">
-              As a veterinarian and lover of animals
-            </h2>
+            <h2 className="card-title text-3xl">AKen Ryuguji Wrote</h2>
             <h3 className="text-[#00BED5] text-2xl">FEBRUARY 09, 2023</h3>
             <p className="text-2xl">
-              Lorem Ipsum available, but the majo rity have suffered alteration
-              in some words which look.
+              My cat is got Vaccinated properly thanks to your doctors. They
+              complete the whole things with such good care, which was really
+              wonderful.
             </p>
             <div className="card-actions justify-start text-2xl">
               <Link className="text-[#00BED5]">Read More+</Link>

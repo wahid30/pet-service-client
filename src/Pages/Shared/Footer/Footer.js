@@ -8,18 +8,18 @@ const Footer = () => {
     <div>
       <footer className="footer p-10 footer-bg global-color text-base-content">
         <div>
-          <span className="footer-title">Services</span>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
+          <span className="footer-title">About</span>
+          <a className="link link-hover">History</a>
+          <a className="link link-hover">Our Team</a>
+          <a className="link link-hover">Brand Guidelines</a>
           <a className="link link-hover">Advertisement</a>
         </div>
         <div>
-          <span className="footer-title">Company</span>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <span className="footer-title">Services</span>
+          <a className="link link-hover">How to Order us</a>
+          <a className="link link-hover">Order Status</a>
+          <a className="link link-hover">Promo</a>
+          <a className="link link-hover">Payment Method</a>
         </div>
         <div>
           <span className="footer-title">Legal</span>
@@ -28,7 +28,7 @@ const Footer = () => {
           <a className="link link-hover">Cookie policy</a>
         </div>
         <div>
-          <span className="footer-title">Newsletter</span>
+          <span className="footer-title">Subscribe</span>
           <div className="form-control w-80">
             <label className="label">
               <span className="label-text text-white">

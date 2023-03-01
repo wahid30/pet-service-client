@@ -11,7 +11,7 @@ const VetCareTeam = () => {
   return (
     <div className="px-5">
       <div className="grid gap-5 text-center my-5">
-        <h1 className="text-5xl">The Vet Care team</h1>
+        <h1 className="text-5xl">The Head Vet Care team</h1>
         <p className="text-2xl">
           Lorem Ipsum available, but the majority have <br /> suffered
           alteration in some form.
@@ -25,8 +25,8 @@ const VetCareTeam = () => {
             <img src={team1} alt="Shoes" />
           </figure>
           <div className="card-body text-center">
-            <h2 className="text-2xl font-semibold">Megan Fox</h2>
-            <p>VETERINARY</p>
+            <h2 className="text-2xl font-semibold">Emma Sano</h2>
+            <p>SENIOR VETERINARY</p>
             <div className="card-actions justify-center">
               <Link className="custom-icon primary-custom-btn">
                 <AiOutlineInstagram className="custom-icon-size"></AiOutlineInstagram>
@@ -47,7 +47,7 @@ const VetCareTeam = () => {
           </figure>
           <div className="card-body text-center">
             <h2 className="text-2xl font-semibold">Flora Sopa</h2>
-            <p>VETERINARY</p>
+            <p>SENIOR VETERINARY</p>
             <div className="card-actions justify-center">
               <Link className="custom-icon primary-custom-btn">
                 <AiOutlineInstagram className="custom-icon-size"></AiOutlineInstagram>
@@ -68,7 +68,7 @@ const VetCareTeam = () => {
           </figure>
           <div className="card-body text-center">
             <h2 className="text-2xl font-semibold">Gal Gatot</h2>
-            <p>VETERINARY</p>
+            <p>SENIOR VETERINARY</p>
             <div className="card-actions justify-center">
               <Link className="custom-icon primary-custom-btn">
                 <AiOutlineInstagram className="custom-icon-size"></AiOutlineInstagram>
