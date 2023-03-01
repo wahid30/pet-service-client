@@ -28,13 +28,13 @@ const VetCareTeam = () => {
             <h2 className="text-2xl font-semibold">Megan Fox</h2>
             <p>VETERINARY</p>
             <div className="card-actions justify-center">
-              <Link className="custom-icon">
+              <Link className="custom-icon primary-custom-btn">
                 <AiOutlineInstagram className="custom-icon-size"></AiOutlineInstagram>
               </Link>
-              <Link className="custom-icon">
+              <Link className="custom-icon primary-custom-btn">
                 <CiFacebook className="custom-icon-size"></CiFacebook>
               </Link>
-              <Link className="custom-icon">
+              <Link className="custom-icon primary-custom-btn">
                 <FiTwitter className="custom-icon-size"></FiTwitter>
               </Link>
             </div>
@@ -49,13 +49,13 @@ const VetCareTeam = () => {
             <h2 className="text-2xl font-semibold">Flora Sopa</h2>
             <p>VETERINARY</p>
             <div className="card-actions justify-center">
-              <Link className="custom-icon">
+              <Link className="custom-icon primary-custom-btn">
                 <AiOutlineInstagram className="custom-icon-size"></AiOutlineInstagram>
               </Link>
-              <Link className="custom-icon">
+              <Link className="custom-icon primary-custom-btn">
                 <CiFacebook className="custom-icon-size"></CiFacebook>
               </Link>
-              <Link className="custom-icon">
+              <Link className="custom-icon primary-custom-btn">
                 <FiTwitter className="custom-icon-size"></FiTwitter>
               </Link>
             </div>
@@ -70,13 +70,13 @@ const VetCareTeam = () => {
             <h2 className="text-2xl font-semibold">Gal Gatot</h2>
             <p>VETERINARY</p>
             <div className="card-actions justify-center">
-              <Link className="custom-icon">
+              <Link className="custom-icon primary-custom-btn">
                 <AiOutlineInstagram className="custom-icon-size"></AiOutlineInstagram>
               </Link>
-              <Link className="custom-icon">
+              <Link className="custom-icon primary-custom-btn">
                 <CiFacebook className="custom-icon-size"></CiFacebook>
               </Link>
-              <Link className="custom-icon">
+              <Link className="custom-icon primary-custom-btn">
                 <FiTwitter className="custom-icon-size"></FiTwitter>
               </Link>
             </div>
