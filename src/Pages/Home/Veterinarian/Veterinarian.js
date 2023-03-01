@@ -5,7 +5,7 @@ const Veterinarian = () => {
   return (
     <div
       className="my-5
-  flex justify-center items-center gap-5 px-5"
+  flex justify-center items-center gap-5 px-5 custom-responsive"
     >
       <div className="grid gap-5">
         <h1 className="text-5xl">As a veterinarian and lover of animals.</h1>

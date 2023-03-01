@@ -7,9 +7,10 @@ const Adoption = () => {
   return (
     <div className="p-5 my-5 service-bg grid gap-5">
       <div className="grid gap-3 text-center">
-        <h1 className="text-4xl">Services</h1>
+        <h1 className="text-4xl">Adoption</h1>
         <h4 className="text-2xl">
-          We provide this kinds of services with expert care.
+          If you are looking to adopt any kinds of pets. Feel free to check
+          here.
         </h4>
       </div>
       {/* cards  */}
@@ -17,7 +18,7 @@ const Adoption = () => {
         {/* card01 */}
         <div className="card  glass">
           <figure>
-            <img src={cat01} alt="car!" />
+            <img src={cat01} alt="car!" className="w-full" />
           </figure>
           <div className="card-body">
             <h2 className="text-center">Name: Lucy</h2>
@@ -29,7 +30,7 @@ const Adoption = () => {
         {/* card02 */}
         <div className="card  glass">
           <figure>
-            <img src={cat02} alt="car!" />
+            <img src={cat02} alt="car!" className="w-full" />
           </figure>
           <div className="card-body">
             <h2 className="text-center">Name: Cookie</h2>
@@ -42,7 +43,7 @@ const Adoption = () => {
         {/* card03 */}
         <div className="card  glass">
           <figure>
-            <img src={dog} alt="car!" />
+            <img src={dog} alt="car!" className="w-full" />
           </figure>
           <div className="card-body">
             <h2 className="text-center">Name: Tucker</h2>

@@ -4,7 +4,7 @@ import bannerDog from "../../../images/dog.png";
 const Banner = () => {
   return (
     <div className="banner-bg global-color">
-      <div className="flex justify-center items-center gap-5 px-5">
+      <div className="flex justify-center items-center gap-5 px-5 custom-responsive">
         <div className="grid gap-5">
           <h1 className="text-6xl">First I wanted to be a veterinarian</h1>
           <p className="text-2xl">

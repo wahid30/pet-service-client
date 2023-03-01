@@ -17,7 +17,7 @@ const Services = () => {
         {/* card01 */}
         <div className="card bg-base-100 shadow-xl">
           <figure>
-            <img src={service01} alt="Shoes" />
+            <img src={service01} alt="Shoes" className="w-full" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Veterinarian</h2>
@@ -33,7 +33,7 @@ const Services = () => {
         {/* card02 */}
         <div className="card bg-base-100 shadow-xl">
           <figure>
-            <img src={service02} alt="Shoes" />
+            <img src={service02} alt="Shoes" className="w-full" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Vaccination Care</h2>
@@ -49,7 +49,7 @@ const Services = () => {
         {/* card03 */}
         <div className="card bg-base-100 shadow-xl">
           <figure>
-            <img src={service03} alt="Shoes" />
+            <img src={service03} alt="Shoes" className="w-full" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Dental Care</h2>

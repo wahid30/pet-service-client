@@ -5,7 +5,7 @@ const LoverOfAnimals = () => {
   return (
     <div
       className="my-5
-flex justify-center items-center gap-5 px-5"
+flex justify-center items-center gap-5 px-5 custom-responsive"
     >
       {" "}
       <div>
