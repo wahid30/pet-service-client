@@ -1,0 +1,17 @@
+.branding-bg {
+  background-image: url("../../../images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 500px; */
+}
+@media only screen and (max-width: 640px) {
+  .custom-responsive {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .custom-responsive {
+    flex-direction: column;
+  }
+}

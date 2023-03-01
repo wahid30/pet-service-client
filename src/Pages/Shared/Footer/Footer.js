@@ -1,5 +1,8 @@
 import React from "react";
-
+import { AiOutlineInstagram } from "react-icons/ai";
+import { CiFacebook } from "react-icons/ci";
+import { FiTwitter } from "react-icons/fi";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
@@ -28,17 +31,30 @@ const Footer = () => {
           <span className="footer-title">Newsletter</span>
           <div className="form-control w-80">
             <label className="label">
-              <span className="label-text">Enter your email address</span>
+              <span className="label-text text-white">
+                Enter your email address
+              </span>
             </label>
             <div className="relative">
               <input
                 type="text"
                 placeholder="username@site.com"
-                className="input input-bordered w-full pr-16"
+                className="input input-bordered w-full pr-16 text-black"
               />
               <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">
                 Subscribe
               </button>
+            </div>
+            <div className="flex mt-2 ml-3">
+              <Link className="custom-footer-icon">
+                <CiFacebook></CiFacebook>
+              </Link>
+              <Link className="custom-footer-icon">
+                <AiOutlineInstagram></AiOutlineInstagram>
+              </Link>
+              <Link className="custom-footer-icon">
+                <FiTwitter></FiTwitter>
+              </Link>
             </div>
           </div>
         </div>

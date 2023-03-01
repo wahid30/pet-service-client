@@ -25,3 +25,26 @@
   background-color: #f9002e;
   transition: 600ms;
 }
+
+.custom-icon {
+  background-color: #cf2547;
+  color: white;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.custom-icon-size {
+  font-size: 30px;
+}
+
+.custom-footer-icon {
+  font-size: 25px;
+  padding: 6px;
+}
+
+.custom-footer-icon:hover {
+  background-color: #cf2547;
+  padding: 6px;
+  border-radius: 50%;
+  transition: 1000ms;
+}
