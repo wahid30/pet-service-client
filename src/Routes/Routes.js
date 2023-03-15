@@ -28,22 +28,30 @@ export const router = createBrowserRouter([
       {
         path: "/VeterinarianServices",
         element: <VeterinarianServices></VeterinarianServices>,
-        loader: () => fetch("http://localhost:5000/VeterinarianServices"),
+        loader: () =>
+          fetch(
+            "https://pet-service-server-eta.vercel.app/VeterinarianServices"
+          ),
       },
       {
         path: "/VaccinationCareServices",
         element: <VaccinationCareServices></VaccinationCareServices>,
-        loader: () => fetch("http://localhost:5000/VaccinationCareServices"),
+        loader: () =>
+          fetch(
+            "https://pet-service-server-eta.vercel.app/VaccinationCareServices"
+          ),
       },
       {
         path: "/NeuterServices",
         element: <NeuterServices></NeuterServices>,
-        loader: () => fetch("http://localhost:5000/NeuterServices"),
+        loader: () =>
+          fetch("https://pet-service-server-eta.vercel.app/NeuterServices"),
       },
       {
         path: "/commentSections",
         element: <CommentSections></CommentSections>,
-        loader: () => fetch("http://localhost:5000/comments"),
+        loader: () =>
+          fetch("https://pet-service-server-eta.vercel.app/comments"),
       },
     ],
   },
