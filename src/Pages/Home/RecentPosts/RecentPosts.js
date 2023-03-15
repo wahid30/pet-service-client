@@ -1,8 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import blog1 from "../../../images/blog1.jpg";
-import blog2 from "../../../images/blog2.jpg";
-import blog3 from "../../../images/blog3.jpg";
 
 const RecentPosts = () => {
   return (
@@ -19,9 +16,6 @@ const RecentPosts = () => {
       <div className="my-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {/* card 01  */}
         <div className="card card-compact  bg-base-100 shadow-xl">
-          <figure>
-            <img className="w-full" src={blog1} alt="Shoes" />
-          </figure>
           <div className="card-body">
             <h2 className="card-title text-3xl">Hanma Shuji Wrote</h2>
             <h3 className="text-[#00BED5] text-2xl">FEBRUARY 09, 2023</h3>
@@ -31,16 +25,10 @@ const RecentPosts = () => {
               had some friends to play with. Looking forward to use your service
               again.
             </p>
-            <div className="card-actions justify-start text-2xl">
-              <Link className="text-[#00BED5]">Read More+</Link>
-            </div>
           </div>
         </div>
         {/* card 02  */}
         <div className="card card-compact  bg-base-100 shadow-xl">
-          <figure>
-            <img className="w-full" src={blog2} alt="Shoes" />
-          </figure>
           <div className="card-body">
             <h2 className="card-title text-3xl">Hanagaki Takemichi Wrote</h2>
             <h3 className="text-[#00BED5] text-2xl">FEBRUARY 09, 2023</h3>
@@ -49,16 +37,10 @@ const RecentPosts = () => {
               play like before. He was in really bad condition when i asked
               advice from your doctors.But now he is all good again. Thank You.
             </p>
-            <div className="card-actions justify-start text-2xl">
-              <Link className="text-[#00BED5]">Read More+</Link>
-            </div>
           </div>
         </div>
         {/* card 03  */}
         <div className="card card-compact bg-base-100 shadow-xl">
-          <figure>
-            <img className="w-full" src={blog3} alt="Shoes" />
-          </figure>
           <div className="card-body">
             <h2 className="card-title text-3xl">AKen Ryuguji Wrote</h2>
             <h3 className="text-[#00BED5] text-2xl">FEBRUARY 09, 2023</h3>
@@ -67,11 +49,18 @@ const RecentPosts = () => {
               complete the whole things with such good care, which was really
               wonderful.
             </p>
-            <div className="card-actions justify-start text-2xl">
-              <Link className="text-[#00BED5]">Read More+</Link>
-            </div>
           </div>
         </div>
+      </div>
+      <div className="text-center">
+        <Link to="/commentSections">
+          <button
+            className="text-2xl bg-cyan-700 text-white p-5 rounded-lg"
+            type="submit"
+          >
+            Place A Comment
+          </button>
+        </Link>
       </div>
     </div>
   );

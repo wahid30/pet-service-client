@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import service01 from "../../../images/services.jpg";
 import service02 from "../../../images/services1.jpg";
 import service03 from "../../../images/services3.jpg";
@@ -26,7 +27,9 @@ const Services = () => {
               illness? contact with a professional Vet.
             </p>
             <div className="card-actions justify-center">
-              <button className="primary-custom-btn">Book Service</button>
+              <Link to="/VeterinarianServices">
+                <button className="primary-custom-btn">Book Service</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -42,7 +45,9 @@ const Services = () => {
               service for beloved pets.
             </p>
             <div className="card-actions justify-center">
-              <button className="primary-custom-btn">Book Service</button>
+              <Link to="/VaccinationCareServices">
+                <button className="primary-custom-btn">Book Service</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -58,7 +63,9 @@ const Services = () => {
               protects them against certain illness and increase their lifespan.
             </p>
             <div className="card-actions justify-center">
-              <button className="primary-custom-btn">Book Service</button>
+              <Link to="/NeuterServices">
+                <button className="primary-custom-btn">Book Service</button>
+              </Link>
             </div>
           </div>
         </div>
