@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Main/Main";
+import Dashboard from "../Pages/Dashboard/Dashboard";
 import Homepage from "../Pages/Home/Homepage/Homepage";
 import CommentSections from "../Pages/Home/RecentPosts/CommentSections";
 import NeuterServices from "../Pages/Home/Services/NeuterServices";
@@ -54,5 +55,19 @@ export const router = createBrowserRouter([
           fetch("https://pet-service-server-eta.vercel.app/comments"),
       },
     ],
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard></Dashboard>,
+    // children: [
+    //   {
+    //     path: "/dashboard/login",
+    //     element: <Login></Login>,
+    //   },
+    //   {
+    //     path: "/dashboard/register",
+    //     element: <Register></Register>,
+    //   },
+    // ],
   },
 ]);

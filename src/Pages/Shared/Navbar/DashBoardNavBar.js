@@ -1,11 +1,9 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../contexts/AuthProvider";
-import "../../../GlobalCss/Global.css";
 import logo from "../../../images/projectLogo.png";
-import { CgProfile } from "react-icons/cg";
 
-const Navbar = () => {
+const DashBoardNavBar = () => {
   const { user, logOut } = useContext(AuthContext);
   const [open, setOpen] = useState(false);
   const handleLogOut = () => {
@@ -71,14 +69,22 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end text-[25px]">
-          <Link to="/dashboard">
-            <CgProfile></CgProfile>
-          </Link>
+        <div className="navbar-end">
+          {user?.email ? (
+            <>
+              <button onClick={handleLogOut} className="btn btn-accent">
+                LogOut
+              </button>
+            </>
+          ) : (
+            <Link to="/Login" className="btn btn-accent">
+              Login
+            </Link>
+          )}
         </div>
       </div>
     </div>
   );
 };
 
-export default Navbar;
+export default DashBoardNavBar;
