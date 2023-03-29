@@ -10,7 +10,7 @@ const CommentSections = () => {
     event.preventDefault();
     console.log(user);
 
-    fetch("https://pet-service-server-eta.vercel.app/comments", {
+    fetch("http://localhost:5000/comments", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(user),

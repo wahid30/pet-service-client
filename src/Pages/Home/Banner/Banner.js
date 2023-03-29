@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import bannerDog from "../../../images/dog.png";
 
 const Banner = () => {
@@ -11,8 +12,12 @@ const Banner = () => {
             Best online safe & reliable Pet Care Service
           </p>
           <div className="flex gap-3">
-            <button className="btn btn-outline">Contact Us</button>
-            <button className="btn btn-outline btn-info">Our Service</button>
+            <Link to="/contact">
+              <button className="btn btn-outline">Contact Us</button>
+            </Link>
+            <Link to="/service">
+              <button className="btn btn-outline btn-info">Our Service</button>
+            </Link>
           </div>
         </div>
         <div>

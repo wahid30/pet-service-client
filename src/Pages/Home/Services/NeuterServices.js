@@ -10,7 +10,7 @@ const NeuterServices = () => {
     event.preventDefault();
     console.log(user);
 
-    fetch("https://pet-service-server-eta.vercel.app/NeuterServices", {
+    fetch("http://localhost:5000/NeuterServices", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(user),

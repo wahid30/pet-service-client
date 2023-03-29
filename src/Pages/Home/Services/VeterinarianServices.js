@@ -12,7 +12,7 @@ const VeterinarianServices = () => {
     event.preventDefault();
     console.log(user);
 
-    fetch("https://pet-service-server-eta.vercel.app/VeterinarianServices", {
+    fetch("http://localhost:5000/VeterinarianServices", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(user),

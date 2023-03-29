@@ -59,13 +59,13 @@ const DashBoardNavBar = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link>About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <Link>Service</Link>
+              <Link to="/service">Service</Link>
             </li>
             <li>
-              <Link>Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
