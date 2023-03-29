@@ -4,7 +4,7 @@ import ShowDayCareServices from "./ShowDayCareServices";
 const DayCareServices = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/dayCareServices")
+    fetch("https://pet-service-server-wahid30.vercel.app/dayCareServices")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);

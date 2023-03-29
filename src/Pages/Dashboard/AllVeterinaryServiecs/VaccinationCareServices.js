@@ -3,7 +3,9 @@ import React, { useEffect, useState } from "react";
 const VaccinationCareServices = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/VaccinationCareServices")
+    fetch(
+      "https://pet-service-server-wahid30.vercel.app/VaccinationCareServices"
+    )
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);

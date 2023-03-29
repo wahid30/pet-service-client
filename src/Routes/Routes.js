@@ -51,7 +51,10 @@ export const router = createBrowserRouter([
             <VeterinarianServices></VeterinarianServices>
           </PrivateRoute>
         ),
-        loader: () => fetch("http://localhost:5000/VeterinarianServices"),
+        loader: () =>
+          fetch(
+            "https://pet-service-server-wahid30.vercel.app/VeterinarianServices"
+          ),
       },
       {
         path: "/VaccinationCareServices",
@@ -60,7 +63,10 @@ export const router = createBrowserRouter([
             <VaccinationCareServices></VaccinationCareServices>
           </PrivateRoute>
         ),
-        loader: () => fetch("http://localhost:5000/VaccinationCareServices"),
+        loader: () =>
+          fetch(
+            "https://pet-service-server-wahid30.vercel.app/VaccinationCareServices"
+          ),
       },
       {
         path: "/NeuterServices",
@@ -69,7 +75,8 @@ export const router = createBrowserRouter([
             <NeuterServices></NeuterServices>
           </PrivateRoute>
         ),
-        loader: () => fetch("http://localhost:5000/NeuterServices"),
+        loader: () =>
+          fetch("https://pet-service-server-wahid30.vercel.app/NeuterServices"),
       },
       {
         path: "/ShowVaccinationCareServices",
@@ -82,7 +89,8 @@ export const router = createBrowserRouter([
             <CommentSections></CommentSections>
           </PrivateRoute>
         ),
-        loader: () => fetch("http://localhost:5000/comments"),
+        loader: () =>
+          fetch("https://pet-service-server-wahid30.vercel.app/comments"),
       },
       {
         path: "/daycareServices",
@@ -91,7 +99,10 @@ export const router = createBrowserRouter([
             <DayCareServices></DayCareServices>
           </PrivateRoute>
         ),
-        loader: () => fetch("http://localhost:5000/dayCareServices"),
+        loader: () =>
+          fetch(
+            "https://pet-service-server-wahid30.vercel.app/dayCareServices"
+          ),
       },
     ],
   },

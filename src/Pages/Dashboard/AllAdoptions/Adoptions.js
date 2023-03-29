@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const Adoptions = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/animalAdoptions/")
+    fetch("https://pet-service-server-wahid30.vercel.app/animalAdoptions/")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);

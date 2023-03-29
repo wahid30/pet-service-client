@@ -9,7 +9,7 @@ const DogCareService = () => {
     event.preventDefault();
     console.log(user);
 
-    fetch("http://localhost:5000/dayCareServices", {
+    fetch("https://pet-service-server-wahid30.vercel.app/dayCareServices", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(user),

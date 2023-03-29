@@ -11,11 +11,14 @@ const VaccinationCareServices = () => {
     event.preventDefault();
     console.log(user);
 
-    fetch("http://localhost:5000/VaccinationCareServices", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify(user),
-    })
+    fetch(
+      "https://pet-service-server-wahid30.vercel.app/VaccinationCareServices",
+      {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify(user),
+      }
+    )
       .then((res) => res.json())
       .then((data) => {
         if (data.acknowledged) {
